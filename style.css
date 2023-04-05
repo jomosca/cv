@@ -36,7 +36,7 @@ p {
 
  p2 { 
     font-family: dancing script; font-size: 30px;
-   
+  
 }
 
 nav a{ 
@@ -49,6 +49,28 @@ nav a:hover{
    text-shadow: -10px -5px 3px beige;
 }
   
+.caja1 {
+width: 500px;
+height: 200px;
+padding-right: 20px;
+padding-left: 20px;
+border: 1px solid black;
+background-color: #EFD5BD;
+margin-bottom: 30px;
+margin-left: 10px;
+}
 
+.caja2 {
+width: 500px;
+height: 200px;
+padding-right: 20px;
+padding-left: 20px;
+border: 1px solid black;
+background-color: #EFD5BD;
+margin-left: 10px;
+
+
+}
+   
 
 
