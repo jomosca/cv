@@ -1,0 +1,54 @@
+
+
+body { 
+    background-color: #F6EADF  ;
+    margin: 0;
+}
+
+  
+a{ 
+    font-family: dancing script; font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+header{ 
+     height: 60px;
+     background-color: #EFD5BD;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+}
+
+
+h1 { 
+font-family: lily script one;
+padding: 10px;
+}
+
+h2 { 
+      font-family: dancing script; font-size: 30px;
+      padding: 10px;
+}
+p { 
+    font-family: dancing script; font-size: 25px;
+}
+
+ p2 { 
+    font-family: dancing script; font-size: 30px;
+   
+}
+
+nav a{ 
+    padding-right: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+nav a:hover{ 
+   text-shadow: -10px -5px 3px beige;
+}
+  
+
+
+
