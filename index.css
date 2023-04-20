@@ -1,4 +1,3 @@
-
 /*------------PANTALLAS EXTRA GRANDES-----------*/
 @media screen and (min-width: 1025px) {
     body {
@@ -27,19 +26,25 @@
         margin-left: 15px;
         margin-right: 15px;
     }
+
+    .foto img {
+        max-width: 200px;
+        margin-left: 25px;
+        border-radius: 15px;
+        width: auto;
+        text-align: left;
+    
+    }
+
     .nombrecompleto {
         font-family: lily script one;
         text-align: center;
         padding-top: 5px;
         font-size: 20px;
         border-radius: 15px;
-        height: 300px;
+        height: 490px;
         background-color: #3BDAD0;
        
-    }
-
-    .informacion {
-        max-width: 600px;
     }
 
     .subtitulo {
@@ -50,8 +55,11 @@
         font-size: 22px;
     }
 
-       
-    .estudios { 
+    .informacion {
+        max-width: 850px;
+    }
+
+    .datospersonales {
         max-width: 700px;
         text-align: left;
         max-height: 230px;
@@ -59,13 +67,19 @@
         font-size: 18px;
     }
 
+    .foto {
+        display: flex;
+        align-items: flex-start;
+        height: 60%;
+        border-radius: 1rem;
+    }
+
     .links {
         display: flex;
         align-items: center;
         list-style: none;
     }
-  
-  
+
     .links a {
         font-family: lily script one; 
         color: black;
@@ -87,8 +101,8 @@
         width: 100%;
         height:3 em;
         margin:auto;
+            
     }
-
 }
 
 /*------------PANTALLAS GRANDES-----------*/
@@ -99,11 +113,10 @@
         max-height: 1024px;
         background-color: #B8F9F5;
     }
-
     .header {
         max-width: 990px;
         max-height: 70px;
-        background-color:#3BDAD0;
+        background-color: #3BDAD0;
     }
 
     .links {
@@ -120,7 +133,15 @@
         margin-right: 15px;
     }
 
-    
+    .foto img {
+        max-width: 180px;
+        margin-left: 25px;
+        border-radius: 15px;
+        width: auto;
+        text-align: left;
+        
+    }
+
     .nombrecompleto {
         font-family: lily script one;
         text-align: center;
@@ -131,9 +152,6 @@
         background-color: #3BDAD0;
     }
 
-    .informacion {
-        max-width: 850px;
-    }
     .subtitulo {
         max-width: 1000px;
         max-height: 20px;
@@ -142,13 +160,23 @@
         font-size: 22px;
     }
 
+    .informacion {
+        max-width: 850px;
+    }
 
-    .estudios {
+    .datospersonales {
         max-width: 700px;
         text-align: left;
         max-height: 230px;
         margin-left: 30px;
         font-size: 18px;
+    }
+
+    .foto {
+        display: flex;
+        align-items: flex-start;
+        height: 60%;
+        border-radius: 1rem;
     }
 
     .links {
@@ -181,13 +209,126 @@
     }
 }
 
+/*------------PANTALLAS MEDIANAS-----------*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+        max-height: 992px;
+        background-color: #B8F9F5;
+    }
+
+    .header {
+        max-width: 992px;
+        max-height: 70px;
+        margin-top: 15px;
+        border-radius: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: #3BDAD0;
+    }
+
+    .links {
+        padding-bottom: 15px;
+        border-radius: 15px;
+    }
+
+    .estructura {
+        max-width: 992px;
+        max-height: 70px;
+        margin-top: 15px;
+        border-radius: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .foto img {
+        max-width: 170px;
+        margin-left: 25px;
+        border-radius: 15px;
+        width: auto;
+        text-align: left;
+       
+    }
+
+    .nombrecompleto {
+       font-family: lily script one;
+        text-align: center;
+        padding-top: 5px;
+        font-size: 20px;
+        border-radius: 15px;
+        height: 490px;
+        background-color:#3BDAD0;
+    }
+
+    .subtitulo {
+        max-width: 992px;
+        max-height: 20px;
+        text-align: left;
+        margin-left: 30px;
+        font-size: 22px;
+    }
+
+    .informacion {
+        max-width: 850px;
+    }
+
+    .datospersonales {
+        max-width: 700px;
+        text-align: left;
+        max-height: 230px;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+
+    .foto {
+        display: flex;
+        align-items: flex-start;
+        height: 60%;
+        border-radius: 1rem;
+    }
+
+    .links {
+        display: inline-flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    .links a {
+       font-family: lily script one;
+        color: black;
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding-top: 10px;
+        list-style: none;
+       text-decoration: none;
+        padding-right: 8vw;
+        padding-left: 9vw;
+        display: flex;
+    }
+
+    .piedepagina {
+        text-align: center;
+        font-family: lily script one;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height:3 em;
+        margin:auto;
+    }
+}
+
+
+
+
+
 /*------------PANTALLAS CHICAS-----------*/
 @media screen and (max-width: 767px) and (min-width: 576px) {
     body {
         padding: 0px;
         margin: 0px;
         max-height: 768px;
-        background-color:  #B8F9F5;
+        background-color: #B8F9F5;
     }
 
     .header {
@@ -210,6 +351,14 @@
         margin-right: 15px;
     }
 
+    .foto img {
+        max-width: 150px;
+        margin-left: 25px;
+        border-radius: 15px;
+        width: auto;
+        text-align: left;
+        
+    }
 
     .nombrecompleto {
         font-family: lily script one;
@@ -217,12 +366,8 @@
         padding-top: 5px;
         font-size: 20px;
         border-radius: 15px;
-        height: 350px;
+        height: 400px;
         background-color: #3BDAD0;
-    }
-
-    .informacion {
-        max-width: 750px;
     }
 
     .subtitulo {
@@ -233,7 +378,11 @@
         font-size: 22px;
     }
 
-    .estudios {
+    .informacion {
+        max-width: 750px;
+    }
+
+    .datospersonales {
         max-width: 700px;
         text-align: left;
         max-height: 230px;
@@ -241,7 +390,12 @@
         font-size: 18px;
     }
 
-   
+    .foto {
+        display: flex;
+        height: 60%;
+        border-radius: 1rem;
+    }
+
     .links {
         display: inline-flex;
         align-items: center;
@@ -272,6 +426,8 @@
     }
 }
 
+
+
 /*------------PANTALLAS TELEFONO VERTICAL-----------*/
 @media screen and (max-width: 479px) and (min-width: 360px) {
     body {
@@ -287,7 +443,7 @@
         background-color: #3BDAD0;
     }
 
-    .links {
+    .enlaces {
         padding-bottom: 15px;
         max-height: 50px;
         border-radius: 15px;
@@ -302,6 +458,12 @@
         margin-right: 15px;
     }
 
+    .foto img {
+        max-width: 130px;
+        border-radius: 15px;
+        text-align: left;
+        
+    }
 
     .nombrecompleto {
        font-family: lily script one;
@@ -309,14 +471,10 @@
         padding-top: 5px;
         font-size: 20px;
         border-radius: 15px;
-        height: 400px;
+        height: 640px;
         background-color:#3BDAD0;
     }
 
-    .informacion {
-        max-width: 550px;
-    }
-    
     .subtitulo {
         max-width: 479px;
         max-height: 20px;
@@ -325,7 +483,11 @@
         font-size: 22px;
     }
 
-    .estudios {
+    .informacion {
+        max-width: 550px;
+    }
+
+    .datospersonales {
         max-width: 479px;
         text-align: left;
         padding-top: 10px;
@@ -334,6 +496,12 @@
         font-size: 18px;
     }
 
+    .foto {
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+        align-items: center;
+    }
 
     .links {
         display: inline-flex;
@@ -355,12 +523,12 @@
     }
 
     .piedepagina {
+        font-family: lily script one;
+        position: absolute;
         text-align: center;
-         font-family: lily script one;
-         position: absolute;
-         bottom: 0;
-         width: 100%;
-         height:3 em;
-         margin:auto;
+        padding-top: 0.3rem;
+        margin:auto;
+    
     }
 }
+
