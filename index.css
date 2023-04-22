@@ -11,6 +11,7 @@
         max-width: 1600px;
         max-height: 70px;
         background-color: #3BDAD0;
+        
     }
 
     .links {
@@ -92,6 +93,11 @@
         padding-left: 10vw;
         display: inline-block;
     }
+
+    .links a:hover {
+        color: white;
+    }
+    
 
     .piedepagina {
         text-align: center;
@@ -196,6 +202,10 @@
         padding-right: 10vw;
         padding-left: 10vw;
         display: flex;
+    }
+
+    .links a:hover {
+        color: white;
     }
 
     .piedepagina {
@@ -307,6 +317,10 @@
         display: flex;
     }
 
+    .links a:hover {
+        color: white;
+    }
+
     .piedepagina {
         text-align: center;
         font-family: lily script one;
@@ -413,6 +427,10 @@
         padding-right: 6vw;
         padding-left: 6vw;
         display: flex;
+    }
+   
+    .links a:hover {
+        color: white;
     }
 
     .piedepagina {
@@ -522,11 +540,15 @@
         display: flex;
     }
 
+    .links a:hover {
+        color: white;
+    }
+
     .piedepagina {
         font-family: lily script one;
         position: absolute;
         text-align: center;
-        padding-top: 0.3rem;
+        padding-top: 0.5rem;
         margin:auto;
     
     }
