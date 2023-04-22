@@ -15,6 +15,7 @@
     }
 
     .links {
+        justify-content: center;
         padding-bottom: 15px;
         border-radius: 15px;
     }
@@ -110,6 +111,7 @@
     }
 
     .links {
+        justify-content: center;
         padding-bottom: 15px;
         border-radius: 15px;
     }
@@ -208,6 +210,7 @@
     }
 
     .links {
+        justify-content: center;
         padding-bottom: 15px;
         border-radius: 15px;
     }
@@ -317,6 +320,7 @@
     }
 
     .links {
+        justify-content: center;
         padding-bottom: 15px;
         border-radius: 15px;
     }
@@ -412,6 +416,7 @@
     }
 
     .links {
+        justify-content: center;
         padding-bottom: 15px;
         max-height: 50px;
         border-radius: 15px;
@@ -462,7 +467,6 @@
     .links {
         display: inline-flex;
         align-items: center;
-        padding-left: 4vw;
         list-style: none;
     }
 
